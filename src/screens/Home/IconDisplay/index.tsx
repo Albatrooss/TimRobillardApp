@@ -16,16 +16,16 @@ const SpinningIcon = () => {
   ).start();
 
   const imageSources = [
-    require('../../../../Assets/Icons/Typescript_dark.png'),
-    require('../../../../Assets/Icons/React_dark.png'),
-    require('../../../../Assets/Icons/Prisma_dark.png'),
-    require('../../../../Assets/Icons/Node_dark.png'),
-    require('../../../../Assets/Icons/Mongo_dark.png'),
-    require('../../../../Assets/Icons/Graphql_dark.png'),
-    require('../../../../Assets/Icons/Postgres_dark.png'),
-    require('../../../../Assets/Icons/Javascript_dark.png'),
-    require('../../../../Assets/Icons/Html_dark.png'),
-    require('../../../../Assets/Icons/Css_dark.png'),
+    require('../../../../Assets/Icons/Typescript.png'),
+    require('../../../../Assets/Icons/React.png'),
+    require('../../../../Assets/Icons/Prisma.png'),
+    require('../../../../Assets/Icons/Node.png'),
+    require('../../../../Assets/Icons/Mongo.png'),
+    require('../../../../Assets/Icons/Graphql.png'),
+    require('../../../../Assets/Icons/Postgres.png'),
+    require('../../../../Assets/Icons/Javascript.png'),
+    require('../../../../Assets/Icons/Html.png'),
+    require('../../../../Assets/Icons/Css.png'),
   ];
 
   const animationData = ANIMATION_DATA.map(data => ({
