@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
   headShotContainer: {
     backgroundColor: 'white',
     elevation: 5,
-    shadowColor: '#000',
+    shadowColor: COLORS.darkBlue,
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,
     shadowRadius: 8,
@@ -142,9 +142,10 @@ const styles = StyleSheet.create({
   },
   aboutText: {
     marginTop: 40,
+    marginHorizontal: 14,
     paddingHorizontal: 20,
-    fontSize: 24,
-    color: COLORS.black,
+    fontSize: 20,
+    color: COLORS.darkBlue,
     textAlign: 'center',
   },
 });
