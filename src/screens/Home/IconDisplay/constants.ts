@@ -1,5 +1,7 @@
 const SEGMENT_LENGTH = 4;
-export const INPUT_RANGE = [...new Array(10 * SEGMENT_LENGTH + 1)].map((_, i) => i);
+export const INPUT_RANGE = [...new Array(10 * SEGMENT_LENGTH + 1)].map(
+  (_, i) => i,
+);
 const INPUT_LENGTH = INPUT_RANGE.length;
 
 type Rotation = '0deg' | '180deg' | '360deg';
@@ -35,7 +37,6 @@ export const ANIMATION_DATA = [...new Array(10)].reduce<AnimationData[]>(
       );
     } else {
       // flipping in
-      console.log('flip', cv);
       res.X = [...new Array(INPUT_LENGTH)].map((_, i) =>
         i < cv * SEGMENT_LENGTH ? '180deg' : '0deg',
       );

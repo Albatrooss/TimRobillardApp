@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
     height: HEIGHT,
     justifyContent: 'center',
     alignItems: 'center',
+    padding: 20,
   },
   nameContainer: {
     position: 'relative',
@@ -94,7 +95,7 @@ const styles = StyleSheet.create({
   },
   robillard: {
     color: COLORS.darkBlue,
-    fontSize: 76,
+    fontSize: 72,
     fontWeight: 'bold',
   },
   h2Container: {
