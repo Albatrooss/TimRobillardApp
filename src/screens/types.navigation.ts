@@ -1,7 +1,7 @@
 import { PortfolioStackNavigatorParamList } from './Portfolio/types.navigation';
 
 export type BottomTabNavigatorParamList = {
-  Home: undefined;
   Portfolio: PortfolioStackNavigatorParamList;
+  Home: undefined;
   Contact: undefined;
 };

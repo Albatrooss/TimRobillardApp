@@ -16,9 +16,10 @@ const MyStack = () => {
         headerShown: false,
         unmountOnBlur: true,
       }}
+      initialRouteName="Home"
       tabBar={props => <TabBar {...props} />}>
-      <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Portfolio" component={PortfolioScreen} />
+      <Tab.Screen name="Home" component={HomeScreen} />
       <Tab.Screen name="Contact" component={ContactScreen} />
     </Tab.Navigator>
   );
